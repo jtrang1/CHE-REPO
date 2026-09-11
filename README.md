@@ -16,10 +16,36 @@ The basic flow will go: open new script on online repo -> download script locall
 GitHub Features: 
 
 COMMITTING VS PUSHING: 
-committing changes simply means finalizing any changes you made locally to your computer, like hitting save but pushing changes is changing the source code on the online repo, changing the base code for everyone who has access to the repo. you always commit before pushing, github will NOT push chnages if they have not been committed to your local file. 
+committing changes simply means finalizing any changes you made locally to your computer, like hitting save but pushing changes is changing the source code on the online repo, changing the base code for everyone who has access to the repo. you always commit before pushing, github will NOT push chnages if they have not been committed to your local file. Please be careful about committing pushing, as it will affect everyone else's baseline code. 
 
 MERGING: 
 Basically we can all work on different parts of the code, upload our individual files and merge it all into 1 finalized version. If multiple changes have been made at the same line or there is some discrepancies, then github has what's called "merge conflicts" if there is a problem with merging certain parts of the code, github will tell us and ask us to resolve the conflict. 
 
 PULL REQUESTS: 
-This is a feature where you can propose 
+This is a feature where you can propose changes to the code, and others can review and approve. 
+
+CODESPACES: 
+Github codespaces are virtual environments provided by Github so we can all work on the same environment and elim any issues of "This works for me but not for person1". That way we don't have to make unncessary changes
+
+----------------------------------------------------------------------------------------------------------------------------
+
+SETTING UP VIRTUAL STUDIO CODE (VSC): 
+1. Download Python (3.14.6): https://www.python.org/ and VSC: https://code.visualstudio.com/download?_exp_download=fb315fc982
+2. Set up an account with VSC and log into Github Copilot on there as well
+3. On the left, go to extensions. Download Python, Pylance, Python Debugger, Python Environment and Python Extension and Github Codespace (These are my downloads but download whatever you want)
+4. Make a folder directory for all your changes/projects go to on your local computer on VSC
+
+Now you're going to create your virtual environment: 
+1. Press CTRL+Shift+P
+2. Press Python Create Environment
+3. 
+4. 
+
+
+
+
+
+
+
+
+
