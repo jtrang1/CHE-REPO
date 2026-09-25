@@ -24,4 +24,4 @@ DOWNLOADING AND SETTING UP PYTHON.
   6.2 the output should be the version of python you have installed + enabled on VSC. IF YOU GET, "python not found" then VSC is still not           detecting your python download file (ill help you best i can if this happens)
 7. ok now you're going to create a virtual environment (venv). virtual environments are isolated workspaces so you can use online python          libraries without having to download all python libraries to your drive (saves space and prevents conflicts between library versions).
    7.1 go to the search bar at the top and type: ">python" and press "create virtual environment"
-   7.2 press quick create (this is a 
+   7.2 learning how to connect to github codespace for usage !!
