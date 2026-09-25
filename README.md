@@ -1,51 +1,27 @@
-# CHE-REPO
-core four repo for any coding projects including lab, design, etc. 
+ok here's just sum rules for this repo 
 
-NEED TO KNOWS ABOUT GITHUB AND REPO -- SUBJECT TO CHANGE  
+repo: basically an online library to hold any shared scripts that we use for everyone/can used by anyone in here. github basically makes it possible to edit/build scripts at the same time within a group, everyone can make changes and it'll update in real time. 
 
-GitHub: 
-You'll need to set up Github for desktop. I recommend downloading VS Code as your open source code editor. It has sm features that I don't fully know everything about but what I do know: 
-1. Built in Terminal for executing certain functions
-2. Built in Github + Github Copilot , so we can push and commit changes through VS code to repo
-3. Has extensions which you can download (You will need to download some for python code editing specifically since VS Code can host many diff coding languages)
-4. Commenting feature where you can add comments for specific lines (similar when you make comments on gdocs/msword) 
+somethings to note for shared scripts: 
+1. branches: branches are basically an individual ver / clone of a script where you can make changes without hurting the main branch/repo. if you want to finalize your changes to a certain script to the main branch, you can merge your version with the version stored on the main branch (repo). 
+2. merge conflicts: sometimes when editing the same script, sometimes there are conflicting changes made on a certain part of a script. when that happens we will get a notif from github asking to resolve it
 
-This Repo is an online library pretty much for all of us to access and make changes to the same script without having to email back and forth or bottleneck code analysis to 1 person. 
-The basic flow will go: open new script on online repo -> download script locally and edit on vsc -> finalize changes -> commit changes to your local computer -> push changes to online repo
+so it's kind of like a tree. the trunk is the MAIN BRANCH, think of it as the final version that we all have access to and share. but we can creare our own individual branches where we can make changes, add features, and delete unecessary lines. MERGING is moving from our individual branch where we make changes, to the trunk, the finalized version of the code. Consider this shared repo, the main/master branch.
 
-GitHub Features: 
+3. commits and pushes: you're going to want to save from your local computer to the branch you're working from on git. commits are basically saves to YOUR local drive, meaning that we cannot see it. PUSHES are "pushing" your changes from your local drive to the online branch you have for this repo.
 
-COMMITTING VS PUSHING: 
-committing changes simply means finalizing any changes you made locally to your computer, like hitting save but pushing changes is changing the source code on the online repo, changing the base code for everyone who has access to the repo. you always commit before pushing, github will NOT push chnages if they have not been committed to your local file. Please be careful about committing pushing, as it will affect everyone else's baseline code. 
-
-MERGING: 
-Basically we can all work on different parts of the code, upload our individual files and merge it all into 1 finalized version. If multiple changes have been made at the same line or there is some discrepancies, then github has what's called "merge conflicts" if there is a problem with merging certain parts of the code, github will tell us and ask us to resolve the conflict. 
-
-PULL REQUESTS: 
-This is a feature where you can propose changes to the code, and others can review and approve. 
-
-CODESPACES: 
-Github codespaces are virtual environments provided by Github so we can all work on the same environment and elim any issues of "This works for me but not for person1". That way we don't have to make unncessary changes
-
-----------------------------------------------------------------------------------------------------------------------------
-
-SETTING UP VIRTUAL STUDIO CODE (VSC): 
-1. Download Python (3.14.6): https://www.python.org/ and VSC: https://code.visualstudio.com/download?_exp_download=fb315fc982
-2. Set up an account with VSC and log into Github Copilot on there as well
-3. On the left, go to extensions. Download Python, Pylance, Python Debugger, Python Environment and Python Extension and Github Codespace (These are my downloads but download whatever you want)
-4. Make a folder directory for all your changes/projects go to on your local computer on VSC
-
-Now you're going to create your virtual environment: 
-1. Press CTRL+Shift+P
-2. Press Python Create Environment
-3. 
-4. 
+4. Pull Requests: a way to review and discuss code changes before marging them to the main branch. we can make comments, deny/approve, and look at the changes being made in real time.
 
 
-
-
-
-
-
-
-
+DOWNLOADING AND SETTING UP PYTHON. 
+1. Download VS code: https://code.visualstudio.com/download?_exp_download=fb315fc982
+2. Download python: https://www.python.org/downloads/release/python-3147/ (macOS + windows ver. below scroll down) 
+3. When you open VSC, you can customize the layout on the top right, first icon to the right of the blue "Update" button
+4. Go to the left and go to the "Extensions" tab, download "Python" and "Python Debugger"
+5. Go to the extension and press activate or wtv it says just enable the extensions you downloaded
+6. if you get a notif like "python not found", fret not. close VSC and reopen and VSC should be able to find the file now.
+  6.1. TO CHECK: go to your terminal (output window at the bottom) and type: WINDOWS: py --3 version | macOS: python3 -- version
+  6.2 the output should be the version of python you have installed + enabled on VSC. IF YOU GET, "python not found" then VSC is still not           detecting your python download file (ill help you best i can if this happens)
+7. ok now you're going to create a virtual environment (venv). virtual environments are isolated workspaces so you can use online python          libraries without having to download all python libraries to your drive (saves space and prevents conflicts between library versions).
+   7.1 go to the search bar at the top and type: ">python" and press "create virtual environment"
+   7.2 press quick create (this is a 
